@@ -1,0 +1,13 @@
+POST http://localhost:3003/api/blogs HTTP/1.1
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNodWNoZmFsYSIsImlkIjoiNWU4ZDYzMDY2ZGY1Mjk4YmMyYzg1NDJjIiwiaWF0IjoxNTg2MzI0MjQ5fQ.ZWvxOdFsObnA2wMCahFbt6eV0TIpoyOY3O94a0gJIwM
+
+{
+  "title": "Miso is fat",
+  "author": "nomcookie",
+  "url": "www.goggole.com",
+  "likes": 234
+}
+
+
+
